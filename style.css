@@ -1,7 +1,12 @@
+body {
+    margin: 0;
+}
 .image-grid {
     display: grid;
     grid-template-columns: 1fr;
-    width: 50%;
     column-gap: 30px;
     row-gap: 30px;
+}
+.css-images {
+    width: 100vw;
 }
