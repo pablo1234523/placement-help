@@ -21,3 +21,32 @@ body {
     padding: 0;
     font-size: 25px;
 }
+.ocr-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 10px; */
+    height: 40px;
+    width: 80px;;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.ocr-button:hover {
+    background-color: red;
+}
+
+.ocr-button:active {
+    box-shadow: 1px 1px 3px black;
+    opacity: 0.9;
+}
+
+.ocr-output-class {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 3px;
+
+}
