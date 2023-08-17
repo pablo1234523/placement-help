@@ -1,12 +1,14 @@
 body {
-    margin: 0;
+    margin: 30px;
 }
 .image-grid {
     display: grid;
     grid-template-columns: 1fr;
-    column-gap: 30px;
-    row-gap: 30px;
+    row-gap: 50px;
 }
 .css-images {
     width: 100vw;
+    border-radius: 2vw;
+    border-color: red;
+    border-style: solid;
 }
