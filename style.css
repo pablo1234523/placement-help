@@ -1,12 +1,23 @@
+body {
+    background-color: #e0e8f0;
+}
 .image-grid {
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 50px;
     row-gap: 50px;
+    align-items: center;
 }
 .css-images {
     width: 100vw;
     border-radius: 2vw;
     border-color: red;
     border-style: solid;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.css-qno {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
 }
