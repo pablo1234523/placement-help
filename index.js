@@ -16,7 +16,7 @@ imageElement = document.querySelector(".js-images")
 
 let total_html = ""
 
-for (let i = 0; i < 50 ; i++) {
+for (let i = 0; i < 100 ; i++) {
     let image_url = `https://pablo1234523.github.io/placement-help/screenshots/s${i}.jpeg`
     console.log(image_url)
     // let q_no_html = `<p class='css-qno'>${i+1}.</p>`
